@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://Apuello13.github.io/booking-front",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
