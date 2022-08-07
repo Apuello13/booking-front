@@ -1,0 +1,24 @@
+@import '../../assets/css/variables.css';
+
+.hero-text h3{
+    font-family: var(--title);
+    font-size: 20px;
+}
+
+.hero-text .hr{
+    background: var(--orange);
+    padding: 0.1rem;
+    width: 100px;
+}
+
+.hero-text p{
+    color: var(--gray);
+    font-family: var(--text);
+}
+
+.hero-image{
+    background: var(--blue);
+    border-radius: 8px;
+    height: 400px;
+    width: 600px;
+}

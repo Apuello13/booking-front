@@ -1,0 +1,31 @@
+@import '../../assets/css/variables.css';
+.home-container{
+    background: var(--graySoft);
+}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.steps{
+    align-items: center;
+    justify-content: center;
+}
+
+.steps li{
+    background: var(--veryDark);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: var(--text);
+}
+
+.steps li:hover{
+    color: var(--veryDark);
+    background: var(--white);
+}
+
+video{
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+@import "../../assets/css/variables.css";
+nav{
+    padding: 0.6rem 1rem;
+    background: var(--graySoft);
+}
+
+h6{
+    color: var(--blue);
+    font-family: var(--title);
+}
+
+h6 span{
+    color: var(--orange);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin: 0 1rem;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--text);
+    color: var(--gray);
+    padding-bottom: 0.4rem;
+}
+
+.active{
+    color: var(--black) !important;
+    font-weight: 700;
+    border-bottom: 1px solid var(--blue);
+}
